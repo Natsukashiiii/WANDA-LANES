@@ -1,0 +1,19 @@
+.*{
+	color: #e6ae47;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+x@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #A9E5BBFF, 0 0 40px #A9E5BBFF, 0 0 50px #A9E5BBFF, 0 0 60px #A9E5BBFF, 0 0 70px #A9E5BBFF;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #252F9C, 0 0 40px #252F9C, 0 0 50px #252F9C, 0 0 60px #252F9C, 0 0 70px #252F9C, 0 0 80px #252F9C;
+  }
+}
+}
